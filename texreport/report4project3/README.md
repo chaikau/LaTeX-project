@@ -1,0 +1,1 @@
+logo.pdf属于电子科技大学所有，不在LICENSE范围
