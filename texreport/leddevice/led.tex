@@ -1,0 +1,33 @@
+\documentclass[titlepage,11pt,a4paper]{article}
+
+\usepackage{pattern}
+
+%=======标题、作者等信息=======
+\title{\includegraphics[scale=0.06]{logo.pdf}\\\song 大功率白光 LED 技术及进展}
+\author{\song 学生姓名~\makebox[10em][c]{\uline{\hfill \hfill}}\\
+	\song 学~~~~~~~~~~号~\makebox[10em][c]{\uline{\hfill \hfill}}\\
+	\song 专~~~~~~~~~~业~\makebox[10em][c]{\uline{\hfill \hfill}}\\
+	\song 指导单位~\makebox[10em][c]{\uline{\hfill 电子科技大学\hfill}}}
+\date{}
+%==============================
+
+\begin{document}\small
+\begin{CJK}{UTF8}{gbsn}
+
+\maketitle
+
+%=============摘要=============
+\input{abstract.tex}
+%==============================
+
+%=============目录=============
+{\centering \tableofcontents}
+\newpage
+%==============================
+
+%=============正文=============
+\input{body.tex}
+%==============================
+
+\end{CJK}
+\end{document}
