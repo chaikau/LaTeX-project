@@ -1,0 +1,39 @@
+\usepackage{geometry,booktabs,float,indentfirst,listings,xcolor,multirow,cite}
+\usepackage[colorlinks, linkcolor=blue, urlcolor=blue, anchorcolor=blue, citecolor=red]{hyperref}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{ulem,fontspec,CJK}
+
+\XeTeXlinebreaklocale "zh"	%针对中文进行断行
+\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt	%给予TeX断行一定自由度
+\linespread{1.5}	%1.5倍行距
+
+%============字体===============
+\newfontfamily\kai{Adobe Kaiti Std}
+\newfontfamily\song{Adobe Song Std}
+\newfontfamily\hei{Adobe Heiti Std}
+\newfontfamily\fang{Adobe Fangsong Std}
+\newfontfamily\mono{WenQuanYi Micro Hei Mono}
+
+\renewcommand{\figurename}{图}
+\renewcommand{\tablename}{表}
+\renewcommand{\contentsname}{目录}
+\renewcommand{\abstractname}{\large \hei 摘\quad 要}
+\renewcommand{\refname}{参考文献}
+
+\captionsetup{labelsep=space,belowskip=-15pt}%图标标题用空格代替冒号
+
+\setmainfont{Adobe Song Std}%主字体
+
+\geometry{left=2.5cm,right=2.5cm,top=2cm,bottom=3cm} %页边距
+
+\bibliographystyle{plain} %参考文献风格
+
+%===============关键词keywords=================
+\long\def\keywords{\par{\hei 关键词  }}
+\let\endkeywords\relax
+
+\pagestyle{fancy}
+\lhead{page \thepage }
+\chead{}
+\rhead{\leftmark}
